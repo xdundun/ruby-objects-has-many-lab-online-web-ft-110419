@@ -8,6 +8,9 @@ class Song
     save
   end
 
+  def save
+    @@all << self
+  end
   def artist_name
     if artist
       self.artist.name
