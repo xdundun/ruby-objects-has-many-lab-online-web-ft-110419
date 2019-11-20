@@ -2,7 +2,7 @@ class Artist
   attr_accessor :name
 
   @@song_count = 0
-  
+
   def initialize(name)
     @name = name
     @songs = []
@@ -18,6 +18,12 @@ class Artist
       @songs
   #  Song.all.select { |song| song.artist == self }
   end
+
+  def self.song_count
+    @@song.case object
+    when condition
+
+    end
 
 
 end #end of class
