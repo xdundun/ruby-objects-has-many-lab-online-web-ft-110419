@@ -20,10 +20,8 @@ class Artist
   end
 
   def self.song_count
-    @@song.case object
-    when condition
-
-    end
+    @@song.count
+end
 
 
 end #end of class
