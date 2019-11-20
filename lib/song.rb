@@ -5,4 +5,5 @@ class Song
     @title = title
     @genre = genre
   end
-end
+
+end #end of class
