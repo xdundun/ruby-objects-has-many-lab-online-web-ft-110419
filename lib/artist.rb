@@ -10,7 +10,7 @@ class Artist
   end
 
   def songs
-    puts @songs.size
+    puts @songs
     Song.all.select {|song| song.artist == self}
   end
 
