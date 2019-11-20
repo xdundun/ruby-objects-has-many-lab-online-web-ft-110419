@@ -7,4 +7,7 @@ class post_count
     save
   end
 
+  def save
+    @@all << self
+  end
 end
