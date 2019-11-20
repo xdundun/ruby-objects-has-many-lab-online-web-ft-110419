@@ -10,6 +10,7 @@ class Artist
   end
 
   def songs
+    puts @songs.size
     Song.all.select {|song| song.artist == self}
   end
 
@@ -25,7 +26,7 @@ class Artist
   end
 
   def self.song_count
-    puts @songs.size
+
     @@song_count
 
   end
