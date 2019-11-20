@@ -24,4 +24,8 @@ class Author
     add_post(post)
   end
 
+  def self.post_count
+    @@post_count
+  end
+
 end #end of class
