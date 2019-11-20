@@ -23,6 +23,4 @@ class Post
     end
   end
 
-
-
 end #end of class
